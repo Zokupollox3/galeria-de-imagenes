@@ -1,0 +1,34 @@
+.contenedor {
+      text-align: center; /* Centra contenido inline horizontalmente */
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      margin: 30px auto; /* Centra el div en la página */
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .contenedor img {
+      display: inline-block; /* Hace que la imagen sea inline para heredar text-align */
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .descripcion {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+.contenedor-float {
+  width: 600px;
+  overflow: hidden; /* Para contener los floats */
+  border: 1px solid #ccc;
+}
+
+.contenedor-float img {
+  width: 33.33%;
+  float: left;
+}
